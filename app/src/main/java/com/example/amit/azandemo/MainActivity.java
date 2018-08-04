@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
+
+String a="";
     protected static final String TAG = "location-updates-sample";
     /**
      * 10秒間隔で位置情報を更新。実際には多少頻度が多くなるかもしれない。
